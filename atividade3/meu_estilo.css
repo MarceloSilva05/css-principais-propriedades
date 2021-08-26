@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+body{
+    box-sizing: border-box;
+    color:#28190E;
+    font-family: 'Allison', cursive;
+    font-size: 20px;
+    background-color: #D3C0CD;
+}
+section{
+    display: flex;
+    justify-content:space-around;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: chocolate;
+    letter-spacing: 1.3em;
+    font-size: 18px;
+}
+.sub_titulo{
+    height: 50px;
+    text-align: center;
+    background-color: #d3d3d3;
+    text-transform: uppercase;
+    color: #28190E;
+    letter-spacing: 1.3em;
+    padding: 1px 0;
+    font-family: 'Monoton', cursive;
+    font-size: 12px;
+    
+}
+li{
+    padding: 5px;
+    margin: 12px 0;
+    font-size: 1.8em;
+}
+span{
+    /*por algum motivo que desconheço não está exatamento no meio */
+    text-decoration:line-through;
+}
+img{
+    width: 250px;
+    height: 160px;
+    display: block;
+    margin: 40px auto;
+    border: solid 2px chocolate;
+    border-radius: 50px;
+    padding: 8px;
+}
+footer{
+    width: 100%;
+    font-family: 'Monoton', cursive;
+    text-align: center;
+    color: chocolate;
+    background-color: #d3d3d3;
+    position: fixed;
+    bottom: 0;
+}

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+body{
+    box-sizing: border-box;
+    color:#28190E;
+    font-family: 'Allison', cursive;
+    font-size: 20px;
+}
+section{
+    display: flex;
+    justify-content:space-around;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: chocolate;
+    letter-spacing: 1.3em;
+    font-size: 18px;
+}
+.sub_titulo{
+    height: 50px;
+    text-align: center;
+    background-color: #d3d3d3;
+    text-transform: uppercase;
+    color: #28190E;
+    letter-spacing: 1.3em;
+    padding: 1px 0;
+    font-family: 'Monoton', cursive;
+    font-size: 12px;
+    
+}
+li{
+    margin: 12px 0;
+    font-size: 1.8em;
+}
+span{
+    /*por algum motivo que desconheço não está exatamento no meio */
+    text-decoration:line-through;
+}
